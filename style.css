@@ -2,7 +2,7 @@ body {
     /* Aplica um gradiente linear que começa no topo (top) e vai até embaixo (bottom) */
     background: linear-gradient(to bottom, #222326 0%, #505259 31%, #222326 100%);
     /* Faz o gradiente ocupar toda a altura da página */
-    min-height: 100vh;
+    min-height: 200vh;
     margin: 0;
 }
 .box{

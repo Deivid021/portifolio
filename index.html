@@ -25,6 +25,19 @@
             </a>
         </div>
     </div>
+    <div class="botao">
+        <button id="scrollButton">Scroll para Topo</button>
+
+        <script>
+          // Ao clicar no botão, rola até o topo da página suavemente
+          document.getElementById("scrollButton").addEventListener("click", function() {
+            window.scrollTo({
+              top: 1000,
+              behavior: "smooth" // Faz a rolagem suave
+            });
+          });
+        </script>
+    </div>
     
     
 </body>
