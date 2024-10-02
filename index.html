@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
     <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,200;1,14..32,200&display=swap');
@@ -24,21 +25,25 @@
                 <img src="Imagens/linkedin.png" class="img">
             </a>
         </div>
-    </div>
-    <div class="botao">
-        <button id="scrollButton">Scroll para Topo</button>
-
-        <script>
-          // Ao clicar no botão, rola até o topo da página suavemente
-          document.getElementById("scrollButton").addEventListener("click", function() {
-            window.scrollTo({
-              top: 1000,
-              behavior: "smooth" // Faz a rolagem suave
-            });
-          });
-        </script>
-    </div>
+          
+        <div class="botao" id="scrollButton">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-chevron-down" viewBox="0 0 16 16" id="seta">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+              </svg>
+        </div>
+           
     
+            <script>
+              // Ao clicar no botão, rola até o topo da página suavemente
+              document.getElementById("scrollButton").addEventListener("click", function() {
+                window.scrollTo({
+                  top: 1000,
+                  behavior: "smooth" // Faz a rolagem suave
+                });
+              });
+            </script>
+        </div>
+    </div>
     <div class="EDUCATION">
             <h2>Educação</h2>
             <hr class="hr">

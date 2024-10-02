@@ -2,7 +2,7 @@ body {
     /* Aplica um gradiente linear que começa no topo (top) e vai até embaixo (bottom) */
     background: linear-gradient(to bottom, #222326 0%, #505259 31%, #222326 100%);
     /* Faz o gradiente ocupar toda a altura da página */
-    min-height: 100vh;
+    min-height: 200vh;
     margin: 0;
 }
 .box{
@@ -52,3 +52,29 @@ div h1 {
     width: 6%;
 }
 
+.botao {
+    width: 50px; /* Largura total do botão */
+    height: 50px; /* Altura total do botão */
+    border-radius: 50%; /* Faz o botão circular */
+    background-color: white; /* Fundo branco para preencher o círculo */
+    display: flex; /* Usar flexbox para centralizar a seta */
+    justify-content: center; /* Centraliza a seta horizontalmente */
+    align-items: center; /* Centraliza a seta verticalmente */
+    margin: 0 auto; /* Centraliza o botão horizontalmente na página */
+    margin-top: 15%; /* Espaço acima do botão */
+    padding: 0; /* Remove o preenchimento do botão */
+    outline: none; /* Remove o contorno padrão do botão */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+#seta {
+    margin-top: 10%;
+
+}
+
+/* Efeito ao passar o mouse */
+.botao:hover #seta {
+    transform: translateY(5px); /* Move a seta levemente para baixo */ 
+    transition: transform 0.5s;
+}
