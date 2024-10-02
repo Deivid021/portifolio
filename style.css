@@ -2,12 +2,12 @@ body {
     /* Aplica um gradiente linear que começa no topo (top) e vai até embaixo (bottom) */
     background: linear-gradient(to bottom, #222326 0%, #505259 31%, #222326 100%);
     /* Faz o gradiente ocupar toda a altura da página */
-    min-height: 200vh;
+    min-height: 100vh;
     margin: 0;
 }
 .box{
     text-align: center;
-    margin-top: 400px;
+    margin-top: 22%;
     color: white;  
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -28,7 +28,7 @@ div h1 {
 }
 
 .imagem{
-    margin-top: 5px;
+    margin-top: 0.5%;
     display: flex;   
     gap: 30px;
     text-align: center;
@@ -39,6 +39,16 @@ div h1 {
     width: 50px;
     height: 50px;
 }
-    
+  
+.EDUCATION{
+    margin-left: 10%;
 
+
+}
+
+.hr{
+    margin-left: 0%;
+    margin: -20px 0;
+    width: 6%;
+}
 
