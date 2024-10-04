@@ -2,7 +2,7 @@ body {
     /* Aplica um gradiente linear que começa no topo (top) e vai até embaixo (bottom) */
     background: linear-gradient(to bottom, #222326 0%, #505259 31%, #222326 100%);
     /* Faz o gradiente ocupar toda a altura da página */
-    min-height: 200vh;
+    min-height: 300vh;
     margin: 0;
 }
 .box{
@@ -41,6 +41,7 @@ div h1 {
 }
   
 .EDUCATION{
+    margin-top: 60%;
     margin-left: 10%;
 
 
@@ -77,4 +78,19 @@ div h1 {
 .botao:hover #seta {
     transform: translateY(5px); /* Move a seta levemente para baixo */ 
     transition: transform 0.5s;
+}
+
+#perfil {
+    width: 15%;
+    margin-top: 5%;
+    display: flex;   
+    gap: 30px;
+    justify-content: center;
+    align-items: center; /* Alinha verticalmente no centro */
+}
+
+.foto {
+    display: flex; /* Permite que a imagem ocupe o espaço corretamente */
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+    align-items: center; /* Centraliza a imagem verticalmente */
 }
