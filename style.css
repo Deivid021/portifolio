@@ -48,9 +48,9 @@ div h1 {
 }
 
 .hr{
-    margin-left: 0%;
-    margin: -20px 0;
-    width: 6%;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
 }
 
 .botao {
@@ -97,7 +97,7 @@ div h1 {
 
 .sobre{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
     color: white;  
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
