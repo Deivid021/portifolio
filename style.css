@@ -99,14 +99,14 @@ div h1 {
     text-align: center;
     margin-top: 2%;
     color: white;  
-    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     letter-spacing: 1px;
     }
 
 div h3 {
-        margin: 5px 0; /* Reduz a margem superior e inferior dos h1 dentro da div */
+        margin: 2px 0; /* Reduz a margem superior e inferior dos h1 dentro da div */
         font-size: 18px;
+        font-family: "Inter", sans-serif;
 }
 
