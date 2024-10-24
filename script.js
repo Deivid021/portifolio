@@ -11,3 +11,4 @@ function setupScrollButton() {
 
 // Chama a função para configurar o botão após o carregamento da página
 window.onload = setupScrollButton;
+
