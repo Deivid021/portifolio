@@ -99,7 +99,7 @@ div h3 {
 
 .subtitulo{
     margin-top: 8%;
-    margin-left: 10%;
+    margin-left: 13%;
     font-weight: 800;
     color: white;
     font-family: "Inter", serif;
@@ -117,4 +117,14 @@ div .sub {
     margin-top: 2%;
     margin-right: 5%;
     
+}
+
+.title {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    margin-top: 2%;
+    color: rgb(255, 255, 255);  
+     font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
 }
