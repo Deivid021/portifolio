@@ -99,13 +99,14 @@ div h3 {
 
 .subtitulo{
     margin-top: 8%;
-    margin-left: 10%;
+    margin-left: 13%;
     font-weight: 800;
     color: white;
     font-family: "Inter", serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: italic;
+    
 }
 
 div .sub {	
@@ -113,8 +114,26 @@ div .sub {
 }
 
 .hr{
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 2%;
-    margin-right: 5%;
+    margin-right: 10%;
     
+}
+
+.title2{
+    text-align: left;
+    width: 50%; /* Aumente para mover mais para a direita */
+    max-width: 100%; /* Limite para telas menores */
+    margin-left: 35%;
+    font-family: "Inter", sans-serif;
+    margin-top: 2%;
+    color: rgb(255, 255, 255);  
+     font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
