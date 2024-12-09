@@ -2,7 +2,7 @@ body {
     /* Aplica um gradiente linear que começa no topo (top) e vai até embaixo (bottom) */
     background: linear-gradient(to bottom, #222326 0%, #505259 31%, #222326 100%);
     /* Faz o gradiente ocupar toda a altura da página */
-    min-height: 300vh;
+    min-height: 400vh;
     margin: 0;
 }
 .box{
@@ -84,12 +84,12 @@ div h1 {
 
 .sobre{
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 5vh     ;
     color: white;  
     font-optical-sizing: auto;
     font-style: normal;
     letter-spacing: 1px;
-    }
+}
 
 div h3 {
         margin: 2px 0; /* Reduz a margem superior e inferior dos h1 dentro da div */
@@ -97,20 +97,109 @@ div h3 {
         font-family: "Inter", sans-serif;
 }
 
-.subtitulo{
-    margin-top: 8%;
-    margin-left: 13%;
-    font-weight: 800;
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10vh;
+    margin-right: 10vh;
+   
+}
+
+
+
+.titulo{
+    /*margin-top: 15vh; */
     color: white;
     font-family: "Inter", serif;
     font-optical-sizing: auto;
-    font-weight: 800;
     font-style: italic;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: initial;
+    width: 40vh;
+    height: 100px;
+   
+}
+
+.vazio{
+   
+    height: 50px;
+    width: 10px;
+}
+
+.espaco{
+    width: 30vh;
+    height: 100px;
+   
+}
+
+.ele2{
+    width: 40vh;
+    height: 100px;
+   
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vh;
+    height: 200px;
+   
+}
+
+.subtitulo{
+    color: white;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-size: 40px;
+  
+}
+
+.inst{
+    color: white;
+    font-family: "Inter", serif;
+    margin-top: -1vh;
+    font-style: bold;
+    font-size: 20px;
+   
+}
+
+.titulo2{
+    /*margin-top: 15vh; */
+    color: white;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    width: 40vh;
+    height: 300px;
+}
+
+.caixa2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vh;
+    height: 200px;
     
 }
 
-div .sub {	
-    font-size: 40px;
+.caixa3{
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    width: 90vh;
+    height: 300px;
+   
 }
 
 .hr{
@@ -120,43 +209,69 @@ div .sub {
     
 }
 
-.tertitulo{
-    margin-left: 50%;
-    font-weight: 800;
-    color: white;
-    font-family: "Inter", serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: bold;
-    
-}
-
 .quad{
     margin-top: 2%;
 }
 
-div .sub {	
-    font-size: 40px;
-}
-
-.quatitulo{
-    margin-top: -1.5%;
-    margin-left: 50.1%;
-    font-weight: 800;
+.just{
     color: white;
     font-family: "Inter", serif;
     font-optical-sizing: auto;
-    font-weight: 800;
+    margin-top: -1vh;
     font-style: normal;
+    font-size: 20px;  
+    letter-spacing: 1px;
     
 }
 
-.just{
-    margin-top: -1.5%;
-    margin-left: 50.1%;
-    margin-top: 2%;
-    color: white;  
+.titulo3{
+    /*margin-top: 15vh; */
+    color: white;
+    font-family: "Inter", serif;
     font-optical-sizing: auto;
-    font-style: normal;
-    letter-spacing: 1px;
+    font-style: italic;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: end;
+    justify-content: initial;
+    width: 45vh;
+    height: 100px;
+    
 }
+
+.espaco2{
+    width: 40vh;
+    height: 100px;
+   
+}
+
+.caixa4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: initial;
+    flex-wrap: wrap;
+    width: 90vh;
+    height: 400px;
+
+}
+
+.elemento{
+    color: white;
+    font-family: "Inter", serif;
+    font-style: italic;
+    font-size: 20px;
+    height: 5vh;
+    width: 9vh;
+    text-align: center;
+   
+}
+
+.retangulo{
+    height: 4vh;
+    width: 25vh;
+    border-radius: 20px;
+    background-color: sienna;
+}
+
