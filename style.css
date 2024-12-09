@@ -257,3 +257,25 @@ div h3 {
     background-color: gray;
 }
 
+.inside{
+    height: 4vh;
+    border-radius: 20px;
+    background-color: rgb(170, 114, 9);
+}
+
+.html-css{
+    width: 13vh;
+}
+
+.sql{
+    width: 10vh;
+}
+
+.php{
+    width: 11vh;
+}
+
+.js-java{
+    width: 8vh;
+}
+
