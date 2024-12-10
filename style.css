@@ -19,7 +19,7 @@ body {
     }
 
 div h1 {
-        margin: -5px 0; /* Reduz a margem superior e inferior dos h1 dentro da div */
+        margin: -5px 0;
         font-size: 48px;
 }
 
@@ -41,13 +41,13 @@ div h1 {
 }
 
 .botao {
-    width: 50px; /* Largura total do botão */
-    height: 50px; /* Altura total do botão */
+    width: 50px; 
+    height: 50px; 
     border-radius: 50%; /* Faz o botão circular */
-    background-color: white; /* Fundo branco para preencher o círculo */
+    background-color: white;
     display: flex; /* Usar flexbox para centralizar a seta */
-    justify-content: center; /* Centraliza a seta horizontalmente */
-    align-items: center; /* Centraliza a seta verticalmente */
+    justify-content: center;
+    align-items: center;
     margin: 0 auto; /* Centraliza o botão horizontalmente na página */
     margin-top: 25vh; /* Espaço acima do botão */
     padding: 0; /* Remove o preenchimento do botão */
@@ -63,7 +63,7 @@ div h1 {
 
 /* Efeito ao passar o mouse */
 .botao:hover #seta {
-    transform: translateY(5px); /* Move a seta levemente para baixo */ 
+    transform: translateY(5px); 
     transition: transform 0.5s;
 }
 
@@ -73,13 +73,13 @@ div h1 {
     display: flex;   
     gap: 30px;
     justify-content: center;
-    align-items: center; /* Alinha verticalmente no centro */
+    align-items: center; 
 }
 
 .foto {
-    display: flex; /* Permite que a imagem ocupe o espaço corretamente */
-    justify-content: center; /* Centraliza a imagem horizontalmente */
-    align-items: center; /* Centraliza a imagem verticalmente */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .sobre{
@@ -108,7 +108,14 @@ div h3 {
     
 }
 
-
+.boxtitle{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: initial;
+    width: 40vh;
+    height: 200px;
+}
 
 .titulo{
     /*margin-top: 15vh; */
@@ -117,59 +124,31 @@ div h3 {
     font-optical-sizing: auto;
     font-style: italic;
     font-size: 40px;
-    display: flex;
-    flex-direction: column; 
-    align-items: initial;
-    justify-content: initial;
-    width: auto;
-    height: 100px;
+    margin-top: 15%;
 }
 
 .titulo-dois{
-    display: flex;
-    justify-content: initial;
-    width: auto;
-    height: 300px; 
-    
+    margin-top: 5%; 
 }
 
-.barrainv{
-    width: 50vh;
-    height: 3px;
-    border-radius: 5vh;
+.titulo-tres{
+    margin-top: -20%;
 }
 
 .barra{
-    width: 38vh;
+    width: 100%;
     height: 3px;
     border-radius: 5vh;
     background-color: rgb(170, 114, 9);
 }
 
-.barra-exp{
-    width: 44vh;  
-}
-
-.barra-tec{
-    width: 48vh;  
-}
-
-.vazio{
-   
-    height: 50px;
-    width: 10px;
-}
-
 .espaco{
     width: 30vh;
     height: 100px;
-  
 }
 
-.ele2{
-    width: 40vh;
-    height: 100px;
-    background-color: #222326;
+.espaco-coluna{ /* espaco dentro da box coluna*/
+    width: 10vh;
 }
 
 .caixa{
@@ -178,7 +157,6 @@ div h3 {
     justify-content: center;
     width: 90vh;
     height: 200px;
-   
 }
 
 .subtitulo{
@@ -200,35 +178,11 @@ div h3 {
    
 }
 
-
-
-.caixa2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90vh;
-    height: 200px;
-    
-}
-
-.caixa3{
-    display: flex;
-    flex-direction: column;
-    justify-content: initial;
-    width: 90vh;
-    height: 300px;
-   
-}
-
 .hr{
     margin-left: 10%;
     margin-top: 2%;
     margin-right: 10%;
     
-}
-
-.quad{
-    margin-top: 2%;
 }
 
 .just{
@@ -242,18 +196,17 @@ div h3 {
     
 }
 
-.caixa4{
+.caixa-colun{  /* box da coluna */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: initial;
     justify-content: initial;
     flex-wrap: wrap;
     width: 90vh;
     height: 50vh;
-
 }
 
-.elemento{
+.elemento{ /* quadrado titulos coluna*/
     color: white;
     font-family: "Inter", serif;
     font-style: italic;
@@ -261,15 +214,15 @@ div h3 {
     height: 6vh;
     width: 22vh;
     display: flex;
-    justify-content: ini;
+    justify-content: initial;
     align-items: end;
     margin-bottom: 1vh;
-   
+    margin-left: 2vh;
 }
 
 .retangulo{
     height: 4vh;
-    width: 25vh;
+    width: 35vh;
     border-radius: 20px;
     background-color: gray;
 }
