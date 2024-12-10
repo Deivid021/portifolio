@@ -2,7 +2,7 @@ body {
     /* Aplica um gradiente linear que começa no topo (top) e vai até embaixo (bottom) */
     background: linear-gradient(to bottom, #222326 0%, #505259 31%, #222326 100%);
     /* Faz o gradiente ocupar toda a altura da página */
-    min-height: 400vh;
+    min-height: 350vh;
     margin: 0;
 }
 .box{
@@ -105,7 +105,7 @@ div h3 {
     flex-wrap: wrap;
     margin-left: 10vh;
     margin-right: 10vh;
-    
+    background-color: #505259;
 }
 
 .boxtitle{
@@ -113,8 +113,14 @@ div h3 {
     flex-direction: column; 
     align-items: center;
     justify-content: initial;
-    width: 40vh;
+    flex-wrap: nowrap;
+    width: 50vh;
     height: 200px;
+    background-color: #273a7e;
+}
+
+.boxtitle-dois{
+    width: 50vh;
 }
 
 .titulo{
@@ -145,6 +151,7 @@ div h3 {
 .espaco{
     width: 30vh;
     height: 100px;
+    background-color: aliceblue;
 }
 
 .espaco-coluna{ /* espaco dentro da box coluna*/
@@ -156,7 +163,7 @@ div h3 {
     flex-direction: column;
     justify-content: center;
     width: 90vh;
-    height: 200px;
+    height: 40h;
 }
 
 .subtitulo{
